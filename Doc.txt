@@ -1,0 +1,80 @@
+Java Transform Library
+
+Coded by vaclavak
+
+Usage Documentation:
+
+This documentation is for version 1.0
+Keep in mind that you need to import all these classes, Here are the imports:
+
+import net.vac.betterjava.FS;
+import net.vac.jtl.pcutils.PCU;
+import net.vac.jtl.util.UT;
+
+Fuction Shortener Class:
+
+1. print function
+- This function shortens the usual "System.out.println("Hello World");" to only "FS.print("Hello World")"
+
+Example:
+
+public static void main(String[] args){
+	FS.print("Hello World");
+}
+
+This will print out: "Hello World"
+
+Utils Class:
+
+1. coinflip function
+- This will decide between two String provided, the chance is 50/50
+
+Example:
+
+public static void main(String[] args){
+	String flip = UT.conflip("yes", "no");
+	System.out.println(flip);
+}
+This will print out either: "yes" or "no"
+To customize this simply change the "yes" and "no" to anything you want
+
+2. Add spaces to string function
+- This will transform a string from this: "Hello World" to this: "H e l l o W o r l d"
+
+Example:
+
+public static void main(String[] args){
+	String hello = "Hello World";
+	String hello2 = UT.addSpacesToString(hello);
+	System.out.println(hello2);
+}
+
+PC Utils Class:
+
+1. Get Public IP Function
+- This will get the Pcs public IPv4 ip adress using the website "ipinfo"
+PLEASE KEEP IN MIND THAT I DO NOT OWN THIS WEBSITE AND I DO NOT CLAIM ANY RIGHTS TO IT
+
+Example:
+
+public static void main(String[] args){
+	String publicIP = PCU.getPublicIP();
+	System.out.println(publicIP);
+}
+This will print out your IP adress
+
+2. Get Private IP Function
+- This will get the Pcs private IPv4 ip adress
+
+Example:
+
+public static void main(String[] args){
+	String privateIP = PCU.getPrivateIP();
+	System.out.println(privateIP);
+}
+This will print out your private IP adress
+
+
+This is all for now...
+
+Stay tuned for the next updates!
