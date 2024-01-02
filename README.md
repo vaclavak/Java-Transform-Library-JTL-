@@ -4,6 +4,9 @@ This library is old and I will likely not release any further versions after [1.
 Also the src code the .metadata is an eclipse config folder, im too lazy to remove it so if u use eclipse good for u I guess.
 
 
+Also this library is pretty useless, I made it when I was a beginner.
+
+
 
 
 
