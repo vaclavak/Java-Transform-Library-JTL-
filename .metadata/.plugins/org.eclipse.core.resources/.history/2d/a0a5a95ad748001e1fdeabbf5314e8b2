@@ -1,0 +1,29 @@
+package net.vac.jtl.betterjava;
+
+import java.util.Random;
+
+public class FS {
+
+	public static void print(String x) {
+		System.out.println(message);
+	}
+	
+	public static void print(int number) {
+		System.out.println(number);
+	}
+	
+	public static void print(long number) {
+		System.out.println(number);
+	}
+	
+	public static void print(double number) {
+		System.out.println(number);
+	}
+	
+	public static void print(boolean input) {
+		System.out.println(input);
+	}
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package net.vac.jtl.betterjava;
+
+import java.util.Random;
+
+public class FS {
+
+	public static void print(String message) {
+		System.out.println(message);
+	}
+	
+	public static void print(int ) {
+		
+	}
+
+}
